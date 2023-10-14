@@ -23,7 +23,7 @@ closePopup.addEventListener("click", function () {
 });
 
 function showPopup() {
-    popupData.innerHTML = "<h3>Survey Form Submission:</h3>";
+    popupData.innerHTML = "<h3>Survey Form Submission</h3>";
     const formElements = surveyForm.elements;
     for (let i = 0; i < formElements.length; i++) {
         const element = formElements[i];
