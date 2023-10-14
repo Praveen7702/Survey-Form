@@ -1,5 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-family: system-ui;
+    background:-webkit-radial-gradient(top left, #90F6FB,#2C3283);
+}
+
+
+h2 {
+    text-align: center;
+    color: #e21a1a;
+    font-size: 35px;
+}
+
+form {
+    width: 550px;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 4% auto;
+}
+
+
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
 }
 
 .form-group {
@@ -7,7 +37,26 @@ body {
 }
 
 label {
-    font-weight: bold;
+    display: block;
+    margin-bottom: 5px
+}
+label i {
+    color: #999;
+    font-size: 80%;
+}
+
+
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #a9bae64a;
+}
+.box {
+    padding-bottom: 10px;
 }
 
 .checkbox-label {
@@ -30,7 +79,7 @@ label {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: indigo; 
+    background-color: rgb(254, 254, 254); 
     padding: 20px;
     border: 1px solid #dcdcdc;
     box-shadow: 0 0 5px #000;
@@ -40,8 +89,8 @@ label {
 .close {
     float: right;
     cursor: pointer;
-    font-size: 20px;
-    color: #333; /* Close button color */
+    font-size: 30px;
+    color: #ff0303; /* Close button color */
 }
 
 #popup-data {
